@@ -345,3 +345,55 @@ footer {
     object-fit: cover;   /* Crop image to fit square */
     margin-top: 20px;
 }
+
+/* Intro Section */
+.intro-section {
+    background-color: #0c0238; /* Light lavender tone matching a modern portfolio theme */
+    padding: 50px 20px;
+}
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    background-color: #f4f0ff;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.profile-pic img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px; /* Square shape with rounded edges */
+    border: 3px solid #8a6cff; /* Theme accent color */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    background-color: #20046d;
+}
+
+.intro-text {
+    max-width: 600px;
+    background-color: #9782cf; /* Same theme background */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.intro-text h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #2c1f4a; /* Dark theme text */
+}
+
+.intro-text h2 {
+    font-size: 1.2rem;
+    color: #5c4f82;
+    margin-bottom: 15px;
+}
+
+.intro-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #3b2f5a;
+}
