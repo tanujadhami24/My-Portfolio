@@ -2,194 +2,144 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - Tanuja Dhami</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        /* Responsive Intro Section Styling */
-        .intro-section {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 50px 20px;
-            flex-wrap: wrap;
-            background: linear-gradient(135deg, #0a151a, #203a43, #2c5364);
-            text-align: center;
-        }
-
-        .profile-pic {
-            flex: 0 0 auto;
-            margin: 15px;
-        }
-
-        .profile-pic img {
-            width: 250px;
-            height: 250px;
-            object-fit: cover;
-            border-radius: 15px;
-            border: 3px solid #333;
-        }
-
-        .intro-text {
-            max-width: 600px;
-            margin: 15px;
-        }
-
-        .intro-text h1 {
-            font-size: 2rem;
-            margin-bottom: 10px;
-        }
-
-        .intro-text h2 {
-            font-size: 1.2rem;
-            color: #555;
-            margin-bottom: 15px;
-        }
-
-        .intro-text p {
-            font-size: 1rem;
-            color: #333;
-            line-height: 1.5;
-        }
-
-        /* Mobile Responsive */
-        @media (max-width: 768px) {
-            .intro-section {
-                flex-direction: column;
-            }
-
-            .intro-text h1 {
-                font-size: 1.6rem;
-            }
-
-            .intro-text h2 {
-                font-size: 1rem;
-            }
-
-            .profile-pic img {
-                width: 200px;
-                height: 200px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - Tanuja Dhami</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <h1>My Portfolio</h1>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#socials">Find Me Online</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Header Section -->
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about" class="active">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#socials">Find Me Online</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Intro Section -->
-    <section class="intro-section">
-        <div class="profile-pic">
-            <img src="picture.jpg" alt="Tanuja Dhami">
-        </div>
-        <div class="intro-text">
-            <h1>Hi, I'm <span class="name">Tanuja Dhami</span></h1>
-            <h2>Engineering Student | Aspiring Software Developer | Technology Enthusiast</h2>
-            <p>I create smart, user-friendly applications by blending innovative design with modern programming skills.
-                Passionate about solving real-world problems through technology.</p>
-        </div>
-    </section>
+  <!-- Intro Section -->
+  <section class="intro-section">
+    <div class="intro-container">
+      <div class="profile-pic">
+        <img src="picture.jpg" alt="Tanuja Dhami">
+      </div>
+      <div class="intro-text">
+        <h1> Hi, I'm <span class="highlight">Tanuja Dhami</span></h1>
+        <h2>Engineering Student | Aspiring Software Developer | Technology Enthusiast</h2>
+        <p>I create smart, user-friendly applications by blending innovative design with modern programming skills.
+          Passionate about solving real-world problems through technology.</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- About Section -->
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <p>
-            I am Tanuja Dhami, currently in my final year of graduation at Graphic Era Hill University, holding an
-            overall SGPA of 8.6. My academic journey has been a blend of hard work, curiosity, and a constant drive
-            to excel in the field of technology. Over the years, I have built strong programming skills and
-            developed a deep passion for Web Development, where I specialize in creating responsive, user-friendly,
-            and visually appealing websites.
-            <br><br>
-            I enjoy working on innovative projects that challenge my creativity and technical expertise. From
-            designing intuitive interfaces to implementing efficient back-end logic, I take pride in delivering
-            complete, well-structured solutions. My interest extends beyond web development — I actively explore
-            emerging technologies, learn new tools, and experiment with different programming approaches to enhance
-            my skill set.
-            <br><br>
-            I believe in continuous learning, adaptability, and teamwork. Whether working independently or
-            collaborating with others, I bring enthusiasm, dedication, and problem-solving skills to every project I
-            undertake. My ultimate goal is to contribute to impactful and meaningful technological solutions that
-            can make a difference in people’s lives, while continuing to grow as a developer and a professional.
-        </p>
-    </section>
+  <!-- About Section -->
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>
+      I am Tanuja Dhami, currently in my final year of graduation at Graphic Era Hill University, holding an
+      overall SGPA of 8.6. My academic journey has been a blend of hard work, curiosity, and a constant drive
+      to excel in the field of technology. Over the years, I have built strong programming skills and
+      developed a deep passion for Web Development, where I specialize in creating responsive, user-friendly,
+      and visually appealing websites.
+      <br><br>
+      I enjoy working on innovative projects that challenge my creativity and technical expertise. From
+      designing intuitive interfaces to implementing efficient back-end logic, I take pride in delivering
+      complete, well-structured solutions. My interest extends beyond web development — I actively explore
+      emerging technologies, learn new tools, and experiment with different programming approaches to enhance
+      my skill set.
+      <br><br>
+      I believe in continuous learning, adaptability, and teamwork. Whether working independently or
+      collaborating with others, I bring enthusiasm, dedication, and problem-solving skills to every project I
+      undertake. My ultimate goal is to contribute to impactful and meaningful technological solutions that
+      can make a difference in people’s lives, while continuing to grow as a developer and a professional.
+    </p>
+  </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="container">
-        <h2>Skills</h2>
-        <p>HTML, CSS, JavaScript, React.js, Node.js, MySQL, Git/GitHub, Responsive Design, REST APIs, C/C++,
-            Python.</p>
-    </section>
+  <!-- Skills Section -->
+  <section id="skills" class="container">
+    <h2>Skills</h2>
+    <p>HTML, CSS, JavaScript, React.js, Node.js, MySQL, Git/GitHub, Responsive Design, REST APIs, C/C++,
+      Python.</p>
+  </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="container">
-        <h2>Projects</h2>
-        <p>Portfolio Website, Video Voice Controller Chrome Extension, IoT Database Compiler, Personal Health
-            Tracker.
-        </p>
-    </section>
+  <!-- Projects Section -->
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>A personal portfolio showcasing my skills, projects, and achievements.</p>
+    </div>
+    <div class="project-card">
+      <h3>Video Voice Controller Chrome Extension</h3>
+      <p>A Chrome extension that allows users to control video playback using voice commands.</p>
+    </div>
+    <div class="project-card">
+      <h3>IoT Database Compiler</h3>
+      <p>A distributed query compiler designed for IoT databases to optimize queries and execution.</p>
+    </div>
+    <div class="project-card">
+      <h3>Personal Health Tracker</h3>
+      <p>A web app to log symptoms, sleep, food, and medication, with trend analysis and health insights.</p>
+    </div>
+  </section>
 
-    <!-- Social Links Section -->
-    <section id="socials" class="find-me-online">
-        <h2>Find Me Online</h2>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/tanuja-dhami-b1707125" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/tanujadhami24" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://leetcode.com/u/Tanuja_Dhami/" target="_blank"><i class="fas fa-code"></i></a>
-            <a href="https://www.instagram.com/tanuja_dhami._?igsh=MWNmd2dpd21ja3E2cg" target="_blank"><i class="fab fa-instagram"></i></a>
-        </div>
-    </section>
+  <!-- Social Links Section -->
+  <section id="socials" class="find-me-online">
+    <h2>Find Me Online</h2>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/tanuja-dhami-b1707125" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://github.com/tanujadhami24" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://leetcode.com/u/Tanuja_Dhami/" target="_blank"><i class="fas fa-code"></i> LeetCode</a>
+      <a href="https://www.instagram.com/tanuja_dhami._?igsh=MWNmd2dpd21ja3E2cg" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+    </div>
+  </section>
 
-    <!-- Resume Download -->
-    <section id="resume">
-        <div class="resume-card">
-            <h3>My Resume</h3>
-            <p>Click below to view or download my resume.</p>
-            <div class="resume-actions">
-                <a href="assets/TanujaDhami.pdf" target="_blank" class="view-btn">View</a>
-                <a href="assets/TanujaDhami.pdf" target="_blank" download>📄 View / Download Resume</a>
-            </div>
-        </div>
-    </section>
+  <!-- Resume Download -->
+  <section id="resume">
+    <div class="resume-card">
+      <h3>My Resume</h3>
+      <p>Click below to view or download my resume.</p>
+      <div class="resume-actions">
+        <a href="assets/TanujaDhami.pdf" target="_blank" class="view-btn">View</a>
+        <a href="assets/TanujaDhami.pdf" target="_blank" download class="download-btn">Download</a>
+      </div>
+    </div>
+  </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Let’s connect! Whether you have a question or just want to say hi, feel free to drop a message.</p>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Let’s connect! Whether you have a question or just want to say hi, feel free to drop a message.</p>
 
-        <form action="https://formspree.io/f/xjkojznr" method="post" class="contact-form">
-            <div class="form-group">
-                <input type="text" name="name" placeholder="Your Name" required>
-            </div>
-            <div class="form-group">
-                <input type="email" name="email" placeholder="Your Email" required>
-            </div>
-            <div class="form-group">
-                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-            </div>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+    <form action="https://formspree.io/f/xjkojznr" method="post" class="contact-form">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      </div>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2025 My Portfolio | Designed by Tanuja Dhami</p>
-    </footer>
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 My Portfolio | Designed by Tanuja Dhami</p>
+  </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
